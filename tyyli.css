@@ -1,12 +1,12 @@
 /* kaikille yhteiset koodit */
 body {
-    color: rgba(10, 10, 10, 0.636);
-    background-color: rgba(123, 158, 48, 0.114);
+    color: rgba(6, 0, 0, 0.948);
+    background-color: rgba(230, 225, 225, 0.532);
     font-family: DM Serif Text, sans-serif;
 }
 
 h1 {
-    color: rgba(45, 225, 28, 0.739);
+    color: rgba(23, 78, 9, 0.822);
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -16,7 +16,7 @@ h1 {
 .logo {vertical-align: middle;}
 
 h2 {
-    color: rgba(45, 225, 28, 0.739);
+    color: rgba(23, 78, 9, 0.822);
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-    color: rgba(45, 225, 28, 0.739);
+    color: rgba(23, 78, 9, 0.822);
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -46,7 +46,7 @@ color: black;}
 
 /* navigointi loppuu */
 
-.korostus {color: rgb(45, 225, 28, 0.739)}
+.korostus {color: rgb(23, 78, 9, 0.822)}
 
 .tuotekuva {width: 80%;
     max-width: 400px;
