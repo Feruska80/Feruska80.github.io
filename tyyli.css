@@ -1,0 +1,105 @@
+/* kaikille yhteiset koodit */
+body {
+    color: rgba(10, 10, 10, 0.636);
+    background-color: rgba(123, 158, 48, 0.114);
+    font-family: DM Serif Text, sans-serif;
+}
+
+h1 {
+    color: rgba(27, 152, 15, 0.739);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.logo {vertical-align: middle;}
+
+h2 {
+    color: rgba(27, 152, 15, 0.739);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+h3 {
+    color: rgba(27, 152, 15, 0.739);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
+h2 {text-align: center;}
+
+header, footer {text-align: center;}
+
+
+/* navigointi */
+#topnav a {text-decoration: none;
+color: black;}
+#topnav li {display: inline-block;
+     padding-left: 5px;
+     padding-right: 5px;}
+#topnav ul {padding-left: 0px;}
+
+/* navigointi loppuu */
+
+.korostus {color: rgb(27, 152, 15, 0.739)}
+
+.tuotekuva {width: 80%;
+    max-width: 400px;
+    display: block;
+    margin:auto}
+
+.laatikko {border:solid 2px;
+    padding: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 30px;}
+
+.laatikko {text-align:left;}
+
+.kuvat {width: 60%;
+           max-width: 400px;
+           display: block;
+           margin:auto}
+
+
+/* mobiili */
+@media only screen and (max-width:440px) {
+
+    header {display: flex;
+           flex-direction: column-reverse;}
+        
+    #topnav li {display: block;
+                text-align: left;}
+    #topnav a {font-size: 2em;}
+    #topnav ul {border-bottom: 1px solid}
+    
+    }
+
+
+@media only screen and (min-width:441px) {
+
+    .flex_container {display: flex;}
+    .historia {flex-wrap:wrap;
+                    justify-content: center;}
+
+    .flex_item {flex:1}
+    .historia .flex_item {flex:0 0 300px;
+                              padding-left:5px;
+                              padding-right: 5px;}
+}
+
+@media only screen and (min-width:1200px) {
+    body {width: 1200px;
+    border:solid 1px black;
+    margin: auto;
+    padding: 0 10px 0 10px;}        
+
+}
